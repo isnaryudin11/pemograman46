@@ -68,7 +68,7 @@ public class Kalkulator extends javax.swing.JFrame {
 
         jTextField1.setEditable(false);
         jTextField1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField1.setFont(new java.awt.Font("Consolas", 0, 20)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Consolas", 1, 48)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,7 +76,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(255, 153, 51));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("+");
         jButton2.setActionCommand("tombolTambah");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +87,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(102, 102, 102));
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("9");
         jButton4.setActionCommand("tombol9");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +98,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setBackground(new java.awt.Color(255, 153, 51));
         jButton7.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("-");
         jButton7.setActionCommand("tombolMinus");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -103,7 +109,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton11.setBackground(new java.awt.Color(102, 102, 102));
         jButton11.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton11.setForeground(new java.awt.Color(255, 255, 255));
         jButton11.setText("4");
         jButton11.setActionCommand("tombol4");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -112,7 +120,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton12.setBackground(new java.awt.Color(102, 102, 102));
         jButton12.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
         jButton12.setText("5");
         jButton12.setActionCommand("tombol5");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +131,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton13.setBackground(new java.awt.Color(102, 102, 102));
         jButton13.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
         jButton13.setText("6");
         jButton13.setToolTipText("");
         jButton13.setActionCommand("tombol6");
@@ -131,7 +143,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton14.setBackground(new java.awt.Color(102, 102, 102));
         jButton14.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
         jButton14.setText("1");
         jButton14.setActionCommand("tombol1");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +154,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton15.setBackground(new java.awt.Color(102, 102, 102));
         jButton15.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton15.setForeground(new java.awt.Color(255, 255, 255));
         jButton15.setText("3");
         jButton15.setActionCommand("tombol3");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -149,7 +165,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton16.setBackground(new java.awt.Color(102, 102, 102));
         jButton16.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
         jButton16.setText("2");
         jButton16.setActionCommand("tombol2");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +176,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton17.setBackground(new java.awt.Color(255, 153, 51));
         jButton17.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(255, 255, 255));
         jButton17.setText("x");
         jButton17.setActionCommand("tombolKali");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -167,7 +187,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton18.setBackground(new java.awt.Color(102, 102, 102));
         jButton18.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(255, 255, 255));
         jButton18.setText("7");
         jButton18.setActionCommand("tombol7");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -176,7 +198,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton19.setBackground(new java.awt.Color(102, 102, 102));
         jButton19.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(255, 255, 255));
         jButton19.setText("8");
         jButton19.setActionCommand("tombol8");
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -185,7 +209,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton21.setBackground(new java.awt.Color(255, 153, 51));
         jButton21.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(255, 255, 255));
         jButton21.setText("/");
         jButton21.setToolTipText("");
         jButton21.setActionCommand("tombolBagi");
@@ -195,7 +221,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton24.setBackground(new java.awt.Color(102, 102, 102));
         jButton24.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton24.setForeground(new java.awt.Color(255, 255, 255));
         jButton24.setText("0");
         jButton24.setActionCommand("tombol0");
         jButton24.addActionListener(new java.awt.event.ActionListener() {
@@ -204,7 +232,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton25.setBackground(new java.awt.Color(255, 153, 51));
         jButton25.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton25.setForeground(new java.awt.Color(255, 255, 255));
         jButton25.setText("=");
         jButton25.setActionCommand("tombolSamaDengan");
         jButton25.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +243,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton26.setBackground(new java.awt.Color(102, 102, 102));
         jButton26.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton26.setForeground(new java.awt.Color(255, 255, 255));
         jButton26.setText(".");
         jButton26.setActionCommand("tombolKoma");
         jButton26.addActionListener(new java.awt.event.ActionListener() {
@@ -222,7 +254,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(255, 102, 102));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("CLEAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -230,7 +264,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setBackground(new java.awt.Color(255, 153, 51));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("√");
         jButton5.setActionCommand("tombolAkar");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -239,7 +275,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setBackground(new java.awt.Color(153, 153, 153));
         jButton6.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("MC");
         jButton6.setActionCommand("tombolTambahMemory");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -248,7 +286,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton8.setBackground(new java.awt.Color(255, 153, 51));
         jButton8.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Ans");
         jButton8.setActionCommand("tombolTambah");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -257,7 +297,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton9.setBackground(new java.awt.Color(153, 153, 153));
         jButton9.setFont(new java.awt.Font("Tahoma", 0, 23)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("MR");
         jButton9.setActionCommand("tombolTambahMemory");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -266,7 +308,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("(");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -274,7 +318,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton10.setBackground(new java.awt.Color(153, 153, 153));
         jButton10.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jButton10.setForeground(new java.awt.Color(255, 255, 255));
         jButton10.setText(")");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -282,7 +328,9 @@ public class Kalkulator extends javax.swing.JFrame {
             }
         });
 
+        jButton20.setBackground(new java.awt.Color(153, 153, 153));
         jButton20.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        jButton20.setForeground(new java.awt.Color(255, 255, 255));
         jButton20.setText("^");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
